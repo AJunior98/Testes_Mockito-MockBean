@@ -1,9 +1,11 @@
 //Data Transfer (DTO)
 package com.procopio.ajcatalog.dto;
 
+import java.io.Serializable;
+
 import com.procopio.ajcatalog.entities.Category;
 
-public class CategoryDTO {
+public class CategoryDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	private Long id;
