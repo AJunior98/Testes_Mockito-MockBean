@@ -23,5 +23,7 @@ A fins de explicação, abaixo deixo exemplificado os testes que realizei:
 
 ## Fixtures utilizadas
 - A unica fixture utilizada nos testes foi a @BeforeEach, para preparar as variaveis antes de cada teste.
+![image](https://user-images.githubusercontent.com/100853329/174479356-2851add6-f766-4f9a-a5d5-be5a521c3a29.png)
+
 - Foi utilizado o @Transactional para os testes de integração utilizando o banco H2, com intuito de fazer um rollback quando finalizasse cada um dos testes.
 ![image](https://user-images.githubusercontent.com/100853329/174479182-13f62eeb-cc1a-4ac3-9fbb-7c19e268e113.png)
